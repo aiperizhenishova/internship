@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/entry
+    username: entry
+    password: 220903
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+
+  server:
+    port: 8080
+
+  main:
+    allow-circular-references: true
+
+
